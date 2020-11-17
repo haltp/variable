@@ -2,12 +2,13 @@ package condition;
 
 public class sjsjsj {
 	public static void main(String[] args) {
-	int sum = 0;
-	for (int i = 0; i <= 10; i++) {
-		if (i*2 == i) {
-			sum += i;
+		int sum7 = 56, sum8 = 56, i = 1;
+		if (i % 7 == 0) {
+			sum7 += i;
+		} else if (i % 8 == 0) {
+			sum8 += i;
 		}
-	}
-		System.out.println(sum);
+		System.out.println("sum7: " + sum7);
+		System.out.println("sum8: " + sum8);
 	}
 }

@@ -10,13 +10,12 @@ public class MorningCode1 {
 				sum8 += i;
 			}
 			i++;
-
-			if (i == 57) {
+			if (sum7%i==0 && sum8%i==0) {
 				break;
 			}
-			
-		}System.out.println("sum7: " + sum7);
+		}
+		System.out.println("sum7: " + sum7);
 		System.out.println("sum8: " + sum8);
-
 	}
+
 }
