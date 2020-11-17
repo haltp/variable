@@ -10,9 +10,8 @@ public class MorningCode {
 			} else if (i % 8 == 0) {
 				sum8 += i;
 			}
-			System.out.println("sum7은 " + sum7);
-			System.out.println("sum8은 " + sum8 );
 		}
-
+		System.out.println("sum7은 " + sum7);
+		System.out.println("sum8은 " + sum8);
 	}
 }
