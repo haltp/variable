@@ -10,7 +10,7 @@ public class MorningCode1 {
 				sum8 += i;
 			}
 			i++;
-			if (sum7%i==0 && sum8%i==0) {
+			if (i%7==0 && i%8==0) {
 				break;
 			}
 		}

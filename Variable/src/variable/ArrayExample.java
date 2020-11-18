@@ -31,7 +31,7 @@ public class ArrayExample {
 		
 		
 //		String[] strings = { "Hello ", "World ", "Nice ", "To ", "Meet" };
-//		for (int i = 0; i < strings.length; i++) {
+//		for (int i = 0; i < strings.length; i++) { //length = 배열
 //			System.out.print(strings[i]); //Hello World Nice To Meet 출력
 			
 			
