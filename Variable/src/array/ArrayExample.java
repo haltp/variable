@@ -2,9 +2,9 @@ package array;
 
 public class ArrayExample {
 	public static void main(String[] args) {
-		int[] intAry = new int[5]; // {0, 0, 0, 0, 0}이 된다, 배열을 선언하면 기본값이 들어간다
-		intAry[0] = 15; // {15 0, 0, 0, 0}이 된다
-		intAry[4] = 33; // {15 0, 0, 0, 33}이 된다
+		int[] intAry = new int[0]; // {0, 0, 0, 0, 0}이 된다, 배열을 선언하면 기본값이 들어간다
+//		intAry[0] = 15; // {15 0, 0, 0, 0}이 된다
+//		intAry[4] = 33; // {15 0, 0, 0, 33}이 된다
 		for(int i=0; i<5; i++) {
 			System.out.println(intAry[i]);
 		}
